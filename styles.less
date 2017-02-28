@@ -1,0 +1,110 @@
+.editor {
+  ///////////////////////
+  // FONT FAMILY SETTING
+  ///////////////////////
+  // font-family: "anka/coder";
+  // font-family: "anka/coder condensed";
+  // font-family: "anonymous pro";
+  // font-family: "camingocode";
+  // font-family: "code new roman";
+  // font-family: "consola mono";
+  // font-family: "consolas";
+  // font-family: "cousine";
+  // font-family: "dejavu sans mono";
+  // font-family: "envy code r";
+  // font-family: "fantasque sans mono";
+  font-family: "fira code";
+  // font-family: "fira code light";
+  // font-family: "fira code medium";
+  // font-family: "fira mono";
+  // font-family: "fira mono medium";
+  // font-family: "hack";
+  // font-family: "hasklig";
+  // font-family: "hasklig medium";
+  // font-family: "hermit";
+  // font-family: "inconsolata lgc";
+  // font-family: "inconsolata-dz";
+  // font-family: "inconsolata-g";
+  // font-family: "inconsolata";
+  // font-family: "input mono";
+  // font-family: "inputmono light";
+  // font-family: "inputmono medium";
+  // font-family: "iosevka medium";
+  // font-family: "m+ 1mn medium";
+  // font-family: "menlo";
+  // font-family: "monaco";
+  // font-family: "monacob2";
+  // font-family: "mononoki";
+  // font-family: "monoid";
+  // font-family: "operator mono light";
+  // font-family: "operator mono book";
+  // font-family: "operator mono medium";
+  // font-family: "office code pro";
+  // font-family: "office code pro medium";
+  // font-family: "office code pro d";
+  // font-family: "office code pro d medium";
+  // font-family: "overpass mono";
+  // font-family: "pt mono";
+  // font-family: "roboto mono medium";
+  // font-family: "roboto mono";
+  // font-family: "sf mono";
+  // font-family: "source code pro";
+  // font-family: "source code pro medium";
+  // font-family: "source code pro semibold";
+  font-family: "ubuntu mono";
+
+  ///////////////////
+  // WEIGHT SETTINGS
+  ///////////////////
+  // font-weight: bold;
+  -webkit-text-stroke: .01em;
+  // -webkit-text-stroke: .015em;
+  // -webkit-text-stroke: .02em;
+  // -webkit-text-stroke: .022em;
+  // -webkit-text-stroke: .025em;
+  // -webkit-text-stroke: .03em;
+  // -webkit-text-stroke: .05em;
+  // -webkit-font-smoothing: subpixel-antialiased;
+  // -webkit-font-smoothing: none;
+  // -webkit-font-smoothing: antialised;
+  // text-rendering: optimizeSpeed;
+  // text-rendering: optimizeLegibility;
+  // text-rendering: geometricPrecision;
+  // text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+.tree-view {
+  // font-family: "ubuntu";
+}
+
+.tab-bar .tab {
+  min-width: 16em !important;
+  // text-align: center;
+  // max-width: initial !important;
+}
+
+.syntax--comment {
+  font-style: italic;
+}
+
+linter-message {
+  font-weight: normal;
+}
+
+atom-text-editor.editor {
+  // The cursor line important to use rgba for opacity, also requires !important to override any theme.
+  .line.highlight-line {
+    background: rgba(0, 0, 0, 0.03) !important;
+  }
+
+  // Replace 'solid', with 'dashed' or 'dotted' depending of what you have set in the settings page.
+
+  // This is for the bottom line (underline)
+  .line.highlight-line-multi-line-solid-bottom {
+    border-bottom-color: red;
+  }
+  // This is for the top line when you have the selection borders enabled.
+  .line.highlight-line-multi-line-solid-top {
+    border-top-color: red;
+  }
+}

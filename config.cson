@@ -1,0 +1,175 @@
+"*":
+  "activate-power-mode":
+    comboMode:
+      enabled: false
+    particles:
+      colours: {}
+      size: {}
+      spawnCount: {}
+      totalCount: {}
+    screenShake:
+      enabled: false
+  "advanced-open-file":
+    createDirectories: true
+    defaultInputValue: "Project root"
+    fuzzyMatch: true
+  "atom-autocomplete-php":
+    binComposer: "/usr/bin/composer"
+  "atom-beautify":
+    general:
+      _analyticsUserId: "a55fa601-6d23-4938-bfd4-94e68b6798aa"
+      analytics: false
+      beautifyEntireFileOnSave: false
+    html:
+      indent_size: 2
+    js:
+      indent_size: 2
+    json:
+      indent_size: 2
+    jsx:
+      indent_level: 2
+      indent_size: 2
+    php:
+      cs_fixer_path: "php-cs-fixer"
+      default_beautifier: "PHPCBF"
+      phpcbf_path: "phpcbf"
+      standard: "PSR2"
+    scss:
+      indent_size: 2
+      no_lead_zero: true
+  "atom-material-ui":
+    colors:
+      abaseColor: "#607d8b"
+      paintCursor: true
+      predefinedColor: "Blue Grey"
+    fonts: {}
+    tabs:
+      compactTabs: true
+    treeView:
+      compactList: true
+    ui:
+      panelContrast: true
+  autosave:
+    enabled: true
+  "base16-syntax":
+    scheme: "Yesterday"
+  core:
+    customFileTypes:
+      "source.jade": [
+        "pug"
+      ]
+    disabledPackages: [
+      "todo-show"
+      "platformio-ide-terminal"
+      "wrap-guide"
+      "language-babel"
+      "atom-autocomplete-php"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "node_modules"
+    ]
+    packagesWithKeymapsDisabled: [
+      "activate-power-mode"
+      "atom-autocomplete-php"
+      "git-blame"
+      "es6-javascript"
+    ]
+    projectHome: "/home/imrea/Projects"
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax-dark"
+    ]
+  "custom-title":
+    template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
+  editor:
+    fontFamily: "hasklig"
+    fontSize: 16
+    invisibles: {}
+    lineHeight: 1.6
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "8ff1df16-070d-d2f6-eba4-5281fa42ab0e"
+  "file-icons": {}
+  "fuzzy-finder":
+    ignoredNames: [
+      "node_modules"
+    ]
+  "git-blame":
+    columnWidth: 250
+    dateFormatString: "YYYY.MM.DD"
+  "git-diff": {}
+  "git-plus":
+    general:
+      _analyticsUserId: "34d5d5c9-6746-4e24-83fd-16fc710812bd"
+  "highlight-line":
+    hideHighlightOnSelect: true
+  hyperclick:
+    linuxTriggerKeys: "altKey"
+  linter:
+    ignoredMessageTypes: [
+      "Info"
+    ]
+    showErrorPanel: false
+  "linter-eslint": {}
+  "linter-phpcs": {}
+  "linter-phpmd": {}
+  minimap:
+    displayPluginsControls: false
+  "multi-wrap-guide":
+    columns: [
+      80
+      120
+    ]
+    locked: true
+    silent: true
+  "one-dark-ui":
+    fontSize: 13
+  "one-light-ui":
+    fontSize: 12
+    layoutMode: "Compact"
+    tabSizing: "Even"
+  "php-integrator-linter":
+    showMissingDocs: false
+  pigments:
+    groupPaletteColors: "by file"
+    markerType: "square-dot"
+  "platformio-ide-terminal":
+    style: {}
+  "seti-syntax":
+    themeColor: "Steel"
+  "seti-ui":
+    fileIcons: false
+    font: "Default Atom Font"
+    themeColor: "Green"
+  tabs:
+    enableVcsColoring: true
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
+    tabLength: 4
+".coffee.jsx.source":
+  editor:
+    autoIndent: true
+    autoIndentOnPaste: true
+".html.php.text":
+  editor:
+    tabLength: 4
+".js.jsx.source":
+  editor:
+    autoIndent: true
+    autoIndentOnPaste: true

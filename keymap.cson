@@ -1,0 +1,28 @@
+'atom-workspace atom-text-editor':
+  'alt-l': 'editor:split-selections-into-lines'
+  'ctrl-k ctrl-c': 'change-case:camel' #changeCaseCamel
+  'ctrl-k ctrl-o': 'change-case:constant' #CHANGE_CASE_CONSTANT
+  'ctrl-k ctrl-d': 'change-case:dot' #change.case.dot
+  'ctrl-k ctrl-l': 'change-case:lower' #change-case:lower
+  'ctrl-k ctrl-r': 'change-case:param' #change-case-param
+  'ctrl-k ctrl-p': 'change-case:pascal' #ChangeCasePascal
+  'ctrl-k ctrl-h': 'change-case:path' #change/case/path
+  'ctrl-k ctrl-e': 'change-case:sentence' #Change case sentence
+  'ctrl-k ctrl-s': 'change-case:snake' #change_case_snake
+  'ctrl-k ctrl-w': 'change-case:swap' #CHANGE-CASE:SWAP
+  'ctrl-k ctrl-t': 'change-case:title' #Change Case Title
+  'ctrl-k ctrl-u': 'change-case:upper' #CHANGE-CASE:UPPER
+  'ctrl-k ctrl-f': 'change-case:upperFirst' #Change-case:upperFirst
+
+'.platform-win32, .platform-linux':
+  'ctrl-0': 'tree-view:toggle-focus'
+  'ctrl-?': 'settings-view:open'
+
+'atom-text-editor:not([mini])':
+  'ctrl-e': 'emmet:expand-abbreviation'
+  'alt-up': 'emmet:increment-number-by-1'
+  'alt-down': 'emmet:decrement-number-by-1'
+
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-ő': 'editor:outdent-selected-rows'
+  'ctrl-ú': 'editor:indent-selected-rows'
