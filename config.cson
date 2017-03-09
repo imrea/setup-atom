@@ -62,8 +62,12 @@
       "todo-show"
       "platformio-ide-terminal"
       "wrap-guide"
-      "language-babel"
-      "atom-autocomplete-php"
+      "react"
+      "php-integrator-autocomplete-plus"
+      "php-integrator-base"
+      "php-integrator-call-tips"
+      "php-integrator-linter"
+      "php-integrator-navigation"
     ]
     ignoredNames: [
       ".git"
@@ -84,13 +88,17 @@
     telemetryConsent: "no"
     themes: [
       "atom-material-ui"
-      "atom-material-syntax-dark"
+      "paraiso-dark"
     ]
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
+  "duotone-dark-syntax":
+    color:
+      duo: "#e99b3e"
+      uno: "#846e60"
   editor:
     fontFamily: "hasklig"
-    fontSize: 16
+    fontSize: 15
     invisibles: {}
     lineHeight: 1.6
     showIndentGuide: true
@@ -118,7 +126,8 @@
       "Info"
     ]
     showErrorPanel: false
-  "linter-eslint": {}
+  "linter-eslint":
+    useGlobalEslint: true
   "linter-phpcs": {}
   "linter-phpmd": {}
   minimap:
