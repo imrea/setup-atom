@@ -97,7 +97,7 @@
       duo: "#e99b3e"
       uno: "#846e60"
   editor:
-    fontFamily: "hasklig"
+    fontFamily: "hasklig-, ubuntu mono-, code new roman"
     fontSize: 15
     invisibles: {}
     lineHeight: 1.6
@@ -118,7 +118,10 @@
     general:
       _analyticsUserId: "34d5d5c9-6746-4e24-83fd-16fc710812bd"
   "highlight-line":
+    enableBackgroundColor: false
     hideHighlightOnSelect: true
+  "highlight-selected":
+    minimumLength: 2
   hyperclick:
     linuxTriggerKeys: "altKey"
   linter:
@@ -126,8 +129,7 @@
       "Info"
     ]
     showErrorPanel: false
-  "linter-eslint":
-    useGlobalEslint: true
+  "linter-eslint": {}
   "linter-phpcs": {}
   "linter-phpmd": {}
   minimap:

@@ -1,5 +1,5 @@
 activate-power-mode@1.3.0
-advanced-open-file@0.16.5
+advanced-open-file@0.16.6
 aligner@0.22.3
 aligner-javascript@1.0.0
 aligner-php@1.0.0
@@ -14,7 +14,7 @@ atom-material-syntax-dark@0.2.7
 atom-material-syntax-light@0.4.6
 atom-material-ui@1.3.9
 autoclose-html@0.23.0
-autocomplete-modules@1.6.7
+autocomplete-modules@1.6.8
 autocomplete-paths@1.0.5
 change-case@0.6.3
 custom-title@1.0.1
@@ -66,5 +66,4 @@ react@0.16.2
 sort-lines@0.14.0
 todo-show@1.11.0
 wordcount@2.10.4
-zenburn@3.1.0
 
