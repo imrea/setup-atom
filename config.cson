@@ -60,7 +60,6 @@
       ]
     disabledPackages: [
       "todo-show"
-      "platformio-ide-terminal"
       "wrap-guide"
       "react"
       "php-integrator-autocomplete-plus"
@@ -68,6 +67,7 @@
       "php-integrator-call-tips"
       "php-integrator-linter"
       "php-integrator-navigation"
+      "highlight-line"
     ]
     ignoredNames: [
       ".git"
@@ -88,7 +88,7 @@
     telemetryConsent: "no"
     themes: [
       "atom-material-ui"
-      "paraiso-dark"
+      "one-dark-syntax"
     ]
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
@@ -97,7 +97,7 @@
       duo: "#e99b3e"
       uno: "#846e60"
   editor:
-    fontFamily: "hasklig-, ubuntu mono-, code new roman"
+    fontFamily: "hasklig"
     fontSize: 15
     invisibles: {}
     lineHeight: 1.6
@@ -121,6 +121,7 @@
     enableBackgroundColor: false
     hideHighlightOnSelect: true
   "highlight-selected":
+    hideHighlightOnSelectedWord: true
     minimumLength: 2
   hyperclick:
     linuxTriggerKeys: "altKey"
