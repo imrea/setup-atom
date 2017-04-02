@@ -48,7 +48,7 @@
     treeView:
       compactList: true
     ui:
-      panelContrast: true
+      panelShadows: true
   autosave:
     enabled: true
   "base16-syntax":
@@ -88,7 +88,7 @@
     telemetryConsent: "no"
     themes: [
       "atom-material-ui"
-      "one-dark-syntax"
+      "atom-material-syntax-dark"
     ]
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
@@ -97,7 +97,7 @@
       duo: "#e99b3e"
       uno: "#846e60"
   editor:
-    fontFamily: "hasklig"
+    fontFamily: "hasklig medium"
     fontSize: 15
     invisibles: {}
     lineHeight: 1.6
@@ -125,11 +125,7 @@
     minimumLength: 2
   hyperclick:
     linuxTriggerKeys: "altKey"
-  linter:
-    ignoredMessageTypes: [
-      "Info"
-    ]
-    showErrorPanel: false
+  linter: {}
   "linter-eslint": {}
   "linter-phpcs": {}
   "linter-phpmd": {}
