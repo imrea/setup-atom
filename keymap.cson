@@ -16,7 +16,6 @@
 
 '.platform-win32, .platform-linux':
   'ctrl-0': 'tree-view:toggle-focus'
-  'ctrl-?': 'settings-view:open'
 
 'atom-text-editor:not([mini])':
   'ctrl-e': 'emmet:expand-abbreviation'
@@ -26,3 +25,8 @@
 'atom-workspace atom-text-editor:not([mini])':
   'ctrl-ő': 'editor:outdent-selected-rows'
   'ctrl-ú': 'editor:indent-selected-rows'
+
+'atom-text-editor':
+  'alt-.': 'trailing-semicolon:semicolon'
+  'alt-,': 'trailing-semicolon:comma'
+  'ctrl-alt-g': 'git-blame:toggle'

@@ -67,7 +67,6 @@
       "php-integrator-call-tips"
       "php-integrator-linter"
       "php-integrator-navigation"
-      "highlight-line"
     ]
     ignoredNames: [
       ".git"
@@ -77,18 +76,22 @@
       "._*"
       "Thumbs.db"
       "node_modules"
+      "bower_components"
+      ".vscode"
+      ".idea"
     ]
     packagesWithKeymapsDisabled: [
       "activate-power-mode"
       "atom-autocomplete-php"
       "git-blame"
       "es6-javascript"
+      "trailing-semicolon"
     ]
     projectHome: "/home/imrea/Projects"
     telemetryConsent: "no"
     themes: [
       "atom-material-ui"
-      "atom-material-syntax-dark"
+      "kary-foundation-light"
     ]
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
@@ -101,7 +104,6 @@
     fontSize: 15
     invisibles: {}
     lineHeight: 1.6
-    showIndentGuide: true
     showInvisibles: true
   "exception-reporting":
     userId: "8ff1df16-070d-d2f6-eba4-5281fa42ab0e"
