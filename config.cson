@@ -34,6 +34,9 @@
       default_beautifier: "PHPCBF"
       phpcbf_path: "phpcbf"
       standard: "PSR2"
+    ruby:
+      indent_size: 2
+      rubocop_path: "/home/imrea/.rbenv/shims/rubocop"
     scss:
       indent_size: 2
       no_lead_zero: true
@@ -48,11 +51,11 @@
     treeView:
       compactList: true
     ui:
-      panelShadows: true
+      panelContrast: true
   autosave:
     enabled: true
   "base16-syntax":
-    scheme: "Yesterday"
+    scheme: "Eighties"
   core:
     customFileTypes:
       "source.jade": [
@@ -91,7 +94,7 @@
     telemetryConsent: "no"
     themes: [
       "atom-material-ui"
-      "kary-foundation-light"
+      "paraiso-dark"
     ]
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
@@ -100,11 +103,12 @@
       duo: "#e99b3e"
       uno: "#846e60"
   editor:
-    fontFamily: "hasklig medium"
+    fontFamily: "fira code retina, hasklig medium"
     fontSize: 15
     invisibles: {}
     lineHeight: 1.6
     showInvisibles: true
+    tabType: "soft"
   "exception-reporting":
     userId: "8ff1df16-070d-d2f6-eba4-5281fa42ab0e"
   "file-icons": {}
@@ -131,8 +135,14 @@
   "linter-eslint": {}
   "linter-phpcs": {}
   "linter-phpmd": {}
+  "linter-rubocop":
+    command: "/home/imrea/.rbenv/shims/rubocop"
+  "linter-ui-default":
+    decorateOnTreeView: "None"
+    showProviderName: true
   minimap:
     displayPluginsControls: false
+  "minimap-linter": {}
   "multi-wrap-guide":
     columns: [
       80
