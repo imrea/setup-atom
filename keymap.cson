@@ -30,3 +30,6 @@
   'alt-.': 'trailing-semicolon:semicolon'
   'alt-,': 'trailing-semicolon:comma'
   'ctrl-alt-g': 'git-blame:toggle'
+  
+"atom-text-editor[data-grammar='source ruby rails']":
+  'ctrl-alt-b': 'linter-rubocop:fix-file'
