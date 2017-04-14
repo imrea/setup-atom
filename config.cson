@@ -89,12 +89,13 @@
       "git-blame"
       "es6-javascript"
       "trailing-semicolon"
+      "goto-definition"
     ]
     projectHome: "/home/imrea/Projects"
     telemetryConsent: "no"
     themes: [
       "atom-material-ui"
-      "paraiso-dark"
+      "base16-syntax"
     ]
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
@@ -123,6 +124,9 @@
   "git-plus":
     general:
       _analyticsUserId: "34d5d5c9-6746-4e24-83fd-16fc710812bd"
+  "goto-definition":
+    contextMenuDisplayAtFirst: false
+    performanceMode: true
   "highlight-line":
     enableBackgroundColor: false
     hideHighlightOnSelect: true
@@ -137,6 +141,7 @@
   "linter-phpmd": {}
   "linter-rubocop":
     command: "/home/imrea/.rbenv/shims/rubocop"
+    disableWhenNoConfigFile: true
   "linter-ui-default":
     decorateOnTreeView: "None"
     showProviderName: true
