@@ -65,11 +65,7 @@
       "todo-show"
       "wrap-guide"
       "react"
-      "php-integrator-autocomplete-plus"
-      "php-integrator-base"
-      "php-integrator-call-tips"
-      "php-integrator-linter"
-      "php-integrator-navigation"
+      "platformio-ide-terminal"
     ]
     ignoredNames: [
       ".git"
@@ -86,16 +82,16 @@
     packagesWithKeymapsDisabled: [
       "activate-power-mode"
       "atom-autocomplete-php"
-      "git-blame"
       "es6-javascript"
       "trailing-semicolon"
       "goto-definition"
+      "git-blame"
     ]
     projectHome: "/home/imrea/Projects"
     telemetryConsent: "no"
     themes: [
       "atom-material-ui"
-      "base16-syntax"
+      "railscast-theme"
     ]
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
@@ -105,7 +101,7 @@
       uno: "#846e60"
   editor:
     fontFamily: "fira code retina, hasklig medium"
-    fontSize: 15
+    fontSize: 16
     invisibles: {}
     lineHeight: 1.6
     showInvisibles: true
@@ -125,7 +121,6 @@
     general:
       _analyticsUserId: "34d5d5c9-6746-4e24-83fd-16fc710812bd"
   "goto-definition":
-    contextMenuDisplayAtFirst: false
     performanceMode: true
   "highlight-line":
     enableBackgroundColor: false
