@@ -91,7 +91,7 @@
     telemetryConsent: "no"
     themes: [
       "atom-material-ui"
-      "railscast-theme"
+      "ariake-dark-syntax"
     ]
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
