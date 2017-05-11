@@ -1,5 +1,7 @@
 '.platform-win32, .platform-linux':
   'ctrl-0': 'tree-view:toggle-focus'
+  'alt': 'abort!'
+  'ctrl-alt': 'abort!'
 
 'atom-text-editor':
   'alt-.': 'trailing-semicolon:semicolon'
