@@ -91,7 +91,7 @@
     telemetryConsent: "no"
     themes: [
       "atom-material-ui"
-      "ariake-dark-syntax"
+      "paraiso-dark"
     ]
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
@@ -100,8 +100,8 @@
       duo: "#e99b3e"
       uno: "#846e60"
   editor:
-    fontFamily: "fira code retina, hasklig medium"
-    fontSize: 16
+    fontFamily: "consolas, fira code retina, hasklig medium"
+    fontSize: 18
     invisibles: {}
     lineHeight: 1.6
     showInvisibles: true
@@ -140,6 +140,8 @@
   "linter-ui-default":
     decorateOnTreeView: "None"
     showProviderName: true
+  "markdown-preview":
+    liveUpdate: false
   minimap:
     displayPluginsControls: false
   "minimap-linter": {}
