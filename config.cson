@@ -57,6 +57,7 @@
   "base16-syntax":
     scheme: "Eighties"
   core:
+    autoHideMenuBar: true
     customFileTypes:
       "source.jade": [
         "pug"
@@ -100,7 +101,7 @@
       duo: "#e99b3e"
       uno: "#846e60"
   editor:
-    fontFamily: "consolas, fira code retina, hasklig medium"
+    fontFamily: "fira code retina, hasklig medium"
     fontSize: 18
     invisibles: {}
     lineHeight: 1.6
