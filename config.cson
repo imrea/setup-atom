@@ -135,9 +135,13 @@
   "linter-eslint": {}
   "linter-phpcs": {}
   "linter-phpmd": {}
+  "linter-pug":
+    onlyRunWhenConfig: true
   "linter-rubocop":
     command: "/home/imrea/.rbenv/shims/rubocop"
     disableWhenNoConfigFile: true
+  "linter-sass-lint":
+    noConfigDisable: true
   "linter-ui-default":
     decorateOnTreeView: "None"
     showProviderName: true

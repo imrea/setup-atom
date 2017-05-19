@@ -1,10 +1,10 @@
 activate-power-mode@1.4.0
 advanced-open-file@0.16.6
-aligner@1.0.0
+aligner@1.2.0
 aligner-javascript@1.1.0
 aligner-php@1.1.1
-aligner-ruby@1.5.0
-aligner-scss@1.2.0
+aligner-ruby@1.6.0
+aligner-scss@1.3.0
 ariake-dark-syntax@0.1.3
 atom-autocomplete-php@0.22.2
 atom-beautify@0.29.24
@@ -23,9 +23,9 @@ change-case@0.6.5
 custom-title@1.0.1
 emmet@2.4.3
 es6-javascript@1.0.0
-file-icons@2.1.5
+file-icons@2.1.6
 firewatch-syntax@1.1.1
-git-blame@1.0.1
+git-blame@1.1.1
 github-atom-light-syntax@0.3.2
 goto-definition@1.3.3
 highlight-selected@0.13.1
@@ -40,9 +40,10 @@ language-babel@2.61.0
 language-blade@0.30.0
 language-docker@1.1.7
 language-gitignore@0.3.0
-language-haml@0.24.1
+language-haml@0.24.3
 language-liquid@0.5.1
-language-nginx@0.7.3
+language-nginx@0.8.0
+language-pug@0.0.21
 language-slim@0.5.0
 linter@2.1.4
 linter-eslint@8.1.7
@@ -50,6 +51,7 @@ linter-jsonlint@1.3.0
 linter-php@1.3.2
 linter-phpcs@1.6.4
 linter-phpmd@1.5.3
+linter-pug@1.3.1
 linter-rubocop@2.1.1
 linter-sass-lint@1.7.4
 linter-ui-default@1.2.4
