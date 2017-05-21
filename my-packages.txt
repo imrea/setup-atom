@@ -12,7 +12,7 @@ atom-jade@0.3.0
 atom-material-syntax@1.0.6
 atom-material-syntax-dark@1.0.0
 atom-material-syntax-light@0.4.6
-atom-material-ui@1.3.10
+atom-material-ui@2.0.3
 autoclose-html@0.23.0
 autocomplete-modules@1.6.10
 autocomplete-paths@1.0.5
@@ -54,7 +54,7 @@ linter-phpmd@1.5.3
 linter-pug@1.3.1
 linter-rubocop@2.1.1
 linter-sass-lint@1.7.4
-linter-ui-default@1.2.4
+linter-ui-default@1.5.4
 markdown-pdf@1.5.0
 markdown-writer@2.6.5
 minimap@4.28.2
@@ -70,7 +70,6 @@ paraiso-black@1.0.5
 paraiso-dark@2.0.2
 paraiso-dark-tuned@2.0.6
 pigments@0.39.1
-platformio-ide-terminal@2.5.0
 project-manager@3.3.4
 railscast-theme@0.3.0
 react@0.16.2

@@ -45,7 +45,8 @@
       abaseColor: "#607d8b"
       paintCursor: true
       predefinedColor: "Blue Grey"
-    fonts: {}
+    fonts:
+      fontSize: 17
     tabs:
       compactTabs: true
     treeView:
@@ -66,7 +67,6 @@
       "todo-show"
       "wrap-guide"
       "react"
-      "platformio-ide-terminal"
     ]
     ignoredNames: [
       ".git"
@@ -101,7 +101,7 @@
       duo: "#e99b3e"
       uno: "#846e60"
   editor:
-    fontFamily: "fira code retina, hasklig medium"
+    fontFamily: "ubuntu mono, fira code medium, hasklig medium"
     fontSize: 18
     invisibles: {}
     lineHeight: 1.6
