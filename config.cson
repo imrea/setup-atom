@@ -91,8 +91,8 @@
     projectHome: "/home/imrea/Projects"
     telemetryConsent: "no"
     themes: [
-      "atom-material-ui"
-      "paraiso-dark"
+      "one-light-ui"
+      "paraiso-light"
     ]
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
@@ -110,6 +110,8 @@
   "exception-reporting":
     userId: "8ff1df16-070d-d2f6-eba4-5281fa42ab0e"
   "file-icons": {}
+  "flatwhite-syntax":
+    ebmedded: "Full"
   "fuzzy-finder":
     ignoredNames: [
       "node_modules"
@@ -144,6 +146,7 @@
     noConfigDisable: true
   "linter-ui-default":
     decorateOnTreeView: "None"
+    panelHeight: 69
     showProviderName: true
   "markdown-preview":
     liveUpdate: false
@@ -160,9 +163,7 @@
   "one-dark-ui":
     fontSize: 13
   "one-light-ui":
-    fontSize: 12
-    layoutMode: "Compact"
-    tabSizing: "Even"
+    tabSizing: "Minimum"
   "php-integrator-linter":
     showMissingDocs: false
   pigments:
