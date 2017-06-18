@@ -7,6 +7,9 @@
       size: {}
       spawnCount: {}
       totalCount: {}
+    plugins:
+      playAudio: true
+      screenShake: true
     screenShake:
       enabled: false
   "advanced-open-file":
@@ -57,6 +60,7 @@
     enabled: true
   "base16-syntax":
     scheme: "Eighties"
+    style: "Dark"
   core:
     autoHideMenuBar: true
     customFileTypes:
@@ -101,8 +105,8 @@
       duo: "#e99b3e"
       uno: "#846e60"
   editor:
-    fontFamily: "ubuntu mono, fira code medium, hasklig medium"
-    fontSize: 18
+    fontFamily: "ubuntu mono-, fira code retina-, fira code medium, hasklig medium"
+    fontSize: 16
     invisibles: {}
     lineHeight: 1.6
     showInvisibles: true
