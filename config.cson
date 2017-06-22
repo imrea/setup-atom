@@ -48,8 +48,7 @@
       abaseColor: "#607d8b"
       paintCursor: true
       predefinedColor: "Blue Grey"
-    fonts:
-      fontSize: 17
+    fonts: {}
     tabs:
       compactTabs: true
     treeView:
@@ -71,6 +70,7 @@
       "todo-show"
       "wrap-guide"
       "react"
+      "atom-autocomplete-php"
     ]
     ignoredNames: [
       ".git"
@@ -95,8 +95,8 @@
     projectHome: "/home/imrea/Projects"
     telemetryConsent: "no"
     themes: [
-      "one-light-ui"
-      "paraiso-light"
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
     ]
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
@@ -105,10 +105,9 @@
       duo: "#e99b3e"
       uno: "#846e60"
   editor:
-    fontFamily: "ubuntu mono-, fira code retina-, fira code medium, hasklig medium"
-    fontSize: 16
+    fontFamily: "ubuntu mono-, fira code, fira code medium, hasklig medium"
+    fontSize: 18
     invisibles: {}
-    lineHeight: 1.6
     showInvisibles: true
     tabType: "soft"
   "exception-reporting":
@@ -150,7 +149,7 @@
     noConfigDisable: true
   "linter-ui-default":
     decorateOnTreeView: "None"
-    panelHeight: 69
+    panelHeight: 67
     showProviderName: true
   "markdown-preview":
     liveUpdate: false
