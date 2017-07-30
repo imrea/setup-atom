@@ -71,6 +71,7 @@
       "wrap-guide"
       "react"
       "atom-autocomplete-php"
+      "multiline-tab"
     ]
     ignoredNames: [
       ".git"
@@ -95,8 +96,8 @@
     projectHome: "/home/imrea/Projects"
     telemetryConsent: "no"
     themes: [
-      "one-dark-ui"
-      "base16-tomorrow-dark-theme"
+      "one-light-ui"
+      "solarized-light-syntax"
     ]
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
@@ -105,8 +106,8 @@
       duo: "#e99b3e"
       uno: "#846e60"
   editor:
-    fontFamily: "ubuntu mono-, fira code, fira code medium, hasklig medium"
-    fontSize: 18
+    fontFamily: "operator mono medium, source code pro medium-, fira code retina"
+    fontSize: 17
     invisibles: {}
     showInvisibles: true
     tabType: "soft"
@@ -149,7 +150,7 @@
     noConfigDisable: true
   "linter-ui-default":
     decorateOnTreeView: "None"
-    panelHeight: 67
+    panelHeight: 69
     showProviderName: true
   "markdown-preview":
     liveUpdate: false
@@ -165,6 +166,7 @@
     silent: true
   "one-dark-ui":
     fontSize: 13
+    tabSizing: "Minimum"
   "one-light-ui":
     tabSizing: "Minimum"
   "php-integrator-linter":
@@ -177,9 +179,9 @@
   "seti-syntax":
     themeColor: "Steel"
   "seti-ui":
+    compactView: true
     fileIcons: false
     font: "Default Atom Font"
-    themeColor: "Green"
   tabs:
     enableVcsColoring: true
   "tree-view":
