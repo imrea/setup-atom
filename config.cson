@@ -52,9 +52,12 @@
     tabs:
       compactTabs: true
     treeView:
-      compactList: true
+      compactList: false
     ui:
       panelContrast: true
+      panelShadows: true
+  "autocomplete-modules":
+    webpack: true
   autosave:
     enabled: true
   "base16-syntax":
@@ -94,21 +97,19 @@
       "git-blame"
     ]
     projectHome: "/home/imrea/Projects"
+    restorePreviousWindowsOnStart: "always"
     telemetryConsent: "no"
     themes: [
-      "one-light-ui"
-      "solarized-light-syntax"
+      "pristine-ui"
+      "cake-syntax"
     ]
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
-  "duotone-dark-syntax":
-    color:
-      duo: "#e99b3e"
-      uno: "#846e60"
   editor:
-    fontFamily: "operator mono medium, source code pro medium-, fira code retina"
-    fontSize: 17
+    fontFamily: "consolas-, operator mono medium-, hasklig medium, fira code medium"
+    fontSize: 16
     invisibles: {}
+    scrollPastEnd: true
     showInvisibles: true
     tabType: "soft"
   "exception-reporting":
@@ -150,7 +151,7 @@
     noConfigDisable: true
   "linter-ui-default":
     decorateOnTreeView: "None"
-    panelHeight: 69
+    panelHeight: 67
     showProviderName: true
   "markdown-preview":
     liveUpdate: false
@@ -173,9 +174,11 @@
     showMissingDocs: false
   pigments:
     groupPaletteColors: "by file"
-    markerType: "square-dot"
+    markerType: "native-square-dot"
   "platformio-ide-terminal":
     style: {}
+    toggles:
+      runInsertedText: false
   "seti-syntax":
     themeColor: "Steel"
   "seti-ui":

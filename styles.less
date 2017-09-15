@@ -35,7 +35,9 @@
   // font-family: "iosevka";
   // font-family: "iosevka medium";
   // font-family: "m+ 1m";
+  // font-family: "m+ 1m medium";
   // font-family: "m+ 1mn";
+  // font-family: "m+ 1mn medium";
   // font-family: "menlo";
   // font-family: "monaco";
   // font-family: "monacob";
@@ -56,6 +58,7 @@
   // font-family: "source code pro";
   // font-family: "source code pro medium";
   // font-family: "source code pro semibold";
+  // font-family: "space mono";
   // font-family: "ubuntu mono";
   // font-family: "vivala code";
 
@@ -63,6 +66,7 @@
   // WEIGHT SETTINGS
   ///////////////////
   // font-weight: bold;
+  // font-weight: 600;
   // -webkit-text-stroke: .01em;
   // -webkit-text-stroke: .012em;
   // -webkit-text-stroke: .014em;
@@ -96,6 +100,14 @@ atom-text-editor {
 
   .syntax--comment {
     // font-style: normal;
+    font-style: italic;
+  }
+
+  .syntax--html.syntax--attribute-name,
+  .syntax--jsx.syntax--attribute-name {
+    // font-family: "operator mono medium";
+    // font-family: "consolas";
+    // font-style: normal;
     // font-style: italic;
   }
 
@@ -104,7 +116,8 @@ atom-text-editor {
   .indent-guide {
     // color: white;
     // opacity: .5;
-    opacity: .3;
+    // opacity: .3;
+    // opacity: .2;
   }
 
   .indent-guide-improved {
@@ -113,6 +126,10 @@ atom-text-editor {
 
   .indent-guide-active {
     opacity: .15;
+  }
+
+  .line-number.foldable .icon-right {
+    visibility: visible;
   }
 }
 
