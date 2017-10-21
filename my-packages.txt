@@ -12,11 +12,11 @@ atom-jade@0.3.0
 atom-material-syntax@1.0.7
 atom-material-syntax-dark@1.0.0
 atom-material-syntax-light@0.4.6
-atom-material-ui@2.0.5
+atom-material-ui@2.0.6
 atom-ternjs@0.18.3
 autoclose-html@0.23.0
-autocomplete-modules@1.7.2
-autocomplete-paths@2.11.0
+autocomplete-modules@1.7.3
+autocomplete-paths@2.12.1
 base16-syntax@1.8.1
 busy-signal@1.4.3
 cake-syntax@1.0.2
@@ -25,6 +25,7 @@ color-picker@2.2.5
 custom-title@1.0.1
 emmet@2.4.3
 es6-javascript@1.0.0
+expose@0.15.0
 file-icons@2.1.13
 firewatch-syntax@1.1.1
 git-blame@1.3.1
@@ -38,7 +39,7 @@ indent-guide-improved@1.4.13
 intentions@1.1.5
 kary-foundation-dark@4.0.0
 kary-foundation-light@4.0.0
-language-babel@2.75.1
+language-babel@2.76.0
 language-blade@0.36.0
 language-docker@1.1.8
 language-dotenv@1.1.1
@@ -50,7 +51,7 @@ language-procfile@0.1.1
 language-pug@0.0.21
 language-slim@0.6.0
 linter@2.2.0
-linter-eslint@8.3.2
+linter-eslint@8.4.0
 linter-htmlhint@1.3.4
 linter-jsonlint@1.3.0
 linter-php@1.5.1
@@ -58,9 +59,9 @@ linter-phpcs@1.6.8
 linter-phpmd@2.0.0
 linter-pug@1.3.1
 linter-rubocop@2.2.0
-linter-sass-lint@1.8.2
+linter-sass-lint@1.8.3
 linter-ui-default@1.6.10
-markdown-writer@2.7.2
+markdown-writer@2.7.3
 minimap@4.29.7
 minimap-find-and-replace@4.5.2
 minimap-git-diff@4.3.1

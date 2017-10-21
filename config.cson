@@ -101,13 +101,13 @@
     telemetryConsent: "no"
     themes: [
       "pristine-ui"
-      "firewatch-syntax"
+      "one-dark-vivid-syntax"
     ]
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
   editor:
     fontFamily: "consolas"
-    fontSize: 16
+    fontSize: 15
     invisibles: {}
     lineHeight: 1.6
     scrollPastEnd: true
