@@ -34,12 +34,11 @@ goto-definition@1.3.4
 highlight-selected@0.13.1
 hopscotch@2.0.2
 hyperclick@0.1.5
-incompatible-packages@0.27.3
 indent-guide-improved@1.4.13
 intentions@1.1.5
 kary-foundation-dark@4.0.0
 kary-foundation-light@4.0.0
-language-babel@2.76.0
+language-babel@2.76.1
 language-blade@0.36.0
 language-docker@1.1.8
 language-dotenv@1.1.1
@@ -66,7 +65,7 @@ minimap@4.29.7
 minimap-find-and-replace@4.5.2
 minimap-git-diff@4.3.1
 minimap-highlight-selected@4.6.1
-minimap-linter@2.1.1
+minimap-linter@2.1.3
 multi-wrap-guide@1.0.0
 multiline-tab@0.2.1
 nord-atom-syntax@0.9.1
