@@ -56,8 +56,8 @@
     ui:
       panelContrast: true
       panelShadows: true
-  "autocomplete-modules":
-    webpack: true
+  "autocomplete-modules": {}
+  "autocomplete-paths": {}
   autosave:
     enabled: true
   "base16-syntax":
@@ -75,6 +75,7 @@
       "react"
       "atom-autocomplete-php"
       "multiline-tab"
+      "atom-ternjs"
     ]
     ignoredNames: [
       ".git"
@@ -107,7 +108,7 @@
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
   editor:
     fontFamily: "consolas"
-    fontSize: 15
+    fontSize: 16
     invisibles: {}
     lineHeight: 1.6
     scrollPastEnd: true
