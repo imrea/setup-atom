@@ -74,8 +74,8 @@
       "wrap-guide"
       "react"
       "atom-autocomplete-php"
-      "multiline-tab"
       "atom-ternjs"
+      "multiline-tab"
     ]
     ignoredNames: [
       ".git"
@@ -102,13 +102,13 @@
     telemetryConsent: "no"
     themes: [
       "pristine-ui"
-      "one-dark-vivid-syntax"
+      "base16-tomorrow-dark-theme"
     ]
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
   editor:
-    fontFamily: "consolas"
-    fontSize: 16
+    fontFamily: "ubuntu mono-, fira code medium-, consolas"
+    fontSize: 17
     invisibles: {}
     lineHeight: 1.6
     scrollPastEnd: true
