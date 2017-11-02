@@ -56,8 +56,12 @@
     ui:
       panelContrast: true
       panelShadows: true
-  "autocomplete-modules": {}
-  "autocomplete-paths": {}
+  "autocomplete-modules":
+    babelPluginModuleResolver: true
+  "autocomplete-paths":
+    ignoredPatterns: [
+      "node_modules"
+    ]
   autosave:
     enabled: true
   "base16-syntax":
@@ -102,7 +106,7 @@
     telemetryConsent: "no"
     themes: [
       "pristine-ui"
-      "base16-tomorrow-dark-theme"
+      "one-dark-vivid-syntax"
     ]
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"

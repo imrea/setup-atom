@@ -47,7 +47,7 @@ language-ini@1.19.0
 language-nginx@0.8.0
 language-procfile@0.1.1
 language-pug@0.0.21
-language-slim@0.6.0
+language-slim@1.0.0
 linter@2.2.0
 linter-eslint@8.4.0
 linter-htmlhint@1.4.0
