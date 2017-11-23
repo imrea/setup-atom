@@ -59,8 +59,9 @@
   "autocomplete-modules":
     babelPluginModuleResolver: true
   "autocomplete-paths":
+    ignoredNames: false
     ignoredPatterns: [
-      "node_modules"
+      "node_modules/*"
     ]
   autosave:
     enabled: true
@@ -105,16 +106,16 @@
     restorePreviousWindowsOnStart: "always"
     telemetryConsent: "no"
     themes: [
-      "pristine-ui"
-      "one-dark-vivid-syntax"
+      "one-light-ui"
+      "paraiso-light"
     ]
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
   editor:
-    fontFamily: "ubuntu mono-, fira code medium-, consolas"
-    fontSize: 17
+    fontFamily: "operator mono medium, fira code medium, ibm plex mono medium"
+    fontSize: 18
     invisibles: {}
-    lineHeight: 1.6
+    lineHeight: 1.4
     scrollPastEnd: true
     showInvisibles: true
     tabType: "soft"
@@ -145,6 +146,7 @@
     minimumLength: 2
   hyperclick:
     linuxTriggerKeys: "altKey"
+  "language-babel": {}
   linter: {}
   "linter-eslint": {}
   "linter-phpcs": {}
@@ -188,8 +190,10 @@
       fontSize: "14"
     toggles:
       runInsertedText: false
+  "pristine-ui":
+    fontSize: 13
   "seti-syntax":
-    themeColor: "Steel"
+    dynamicColor: false
   "seti-ui":
     compactView: true
     fileIcons: false
