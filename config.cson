@@ -107,13 +107,13 @@
     restorePreviousWindowsOnStart: "always"
     telemetryConsent: "no"
     themes: [
-      "one-light-ui"
-      "base16-tomorrow-light-theme"
+      "one-dark-ui"
+      "cake-syntax"
     ]
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
   editor:
-    fontFamily: "consolas-, operator mono medium, fira code medium-, ibm plex mono medium"
+    fontFamily: "consolas-, operator mono medium, fira code medium, ibm plex mono medium"
     fontSize: 19
     invisibles: {}
     lineHeight: 1.4
@@ -126,6 +126,7 @@
     coloured: false
   "file-types":
     "^Dockerfile\\..*$": "source.dockerfile"
+    "^\.env\\..*$": "source.dotenv"
   "fuzzy-finder":
     ignoredNames: [
       "node_modules"
@@ -159,7 +160,6 @@
   "linter-ui-default":
     decorateOnTreeView: "None"
     panelHeight: 67
-    showPanel: true
     showProviderName: true
   "markdown-preview":
     liveUpdate: false
