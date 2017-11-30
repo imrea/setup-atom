@@ -68,6 +68,7 @@
   "base16-syntax":
     scheme: "Eighties"
     style: "Dark"
+  "bracket-matcher": {}
   core:
     autoHideMenuBar: true
     customFileTypes:
@@ -108,31 +109,30 @@
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
-      "cake-syntax"
+      "base16-tomorrow-dark-theme"
     ]
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
   editor:
-    fontFamily: "consolas-, operator mono medium, fira code medium, ibm plex mono medium"
-    fontSize: 19
+    fontFamily: "ubuntu mono, consolas-, operator mono medium, fira code medium, ibm plex mono medium"
+    fontSize: 20
     invisibles: {}
     lineHeight: 1.4
     scrollPastEnd: true
     showInvisibles: true
-    tabType: "soft"
   "exception-reporting":
     userId: "8ff1df16-070d-d2f6-eba4-5281fa42ab0e"
   "file-icons":
     coloured: false
   "file-types":
+    "^.env\\..*$": "source.dotenv"
     "^Dockerfile\\..*$": "source.dockerfile"
-    "^\.env\\..*$": "source.dotenv"
   "fuzzy-finder":
     ignoredNames: [
       "node_modules"
     ]
   "git-blame":
-    columnWidth: 250
+    columnWidth: 381
     dateFormatString: "YYYY.MM.DD"
   "git-diff": {}
   "goto-definition":
