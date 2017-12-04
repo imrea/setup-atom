@@ -37,8 +37,8 @@ hopscotch@2.0.2
 hyperclick@0.1.5
 indent-guide-improved@1.4.13
 intentions@1.1.5
-language-babel@2.80.1
-language-blade@0.36.0
+language-babel@2.80.2
+language-blade@0.37.0
 language-docker@1.1.8
 language-dotenv@1.1.1
 language-gitignore@0.3.0

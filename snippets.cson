@@ -1,0 +1,7 @@
+'.source.js.jsx':
+  'export default':
+    'prefix': 'exd'
+    'body': 'export default ${1:module};'
+  'import React':
+    'prefix': 'imre'
+    'body': 'import React from \'react\';'
