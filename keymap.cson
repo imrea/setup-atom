@@ -4,8 +4,8 @@
   'ctrl-alt': 'abort!'
 
 'atom-text-editor':
-  'alt-.': 'trailing-semicolon:semicolon'
-  'alt-,': 'trailing-semicolon:comma'
+  'alt-cmd-,': 'trailing-semicolon:comma'
+  'alt-cmd-.': 'trailing-semicolon:semicolon'
   'ctrl-alt-g': 'git-blame:toggle'
   'alt-l': 'editor:split-selections-into-lines'
   'ctrl-k ctrl-c': 'change-case:camel' #changeCaseCamel

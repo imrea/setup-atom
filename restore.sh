@@ -24,11 +24,11 @@ cp ./styles.less ~/.atom/styles.less
 echo ' done!'
 
 echo -n 'Setting up ownerships and permissions...'
-chown $USER:$USER ~/.atom/config.cson
-chown $USER:$USER ~/.atom/init.coffee
-chown $USER:$USER ~/.atom/keymap.cson
-chown $USER:$USER ~/.atom/snippets.cson
-chown $USER:$USER ~/.atom/styles.less
+chown $USER:staff ~/.atom/config.cson
+chown $USER:staff ~/.atom/init.coffee
+chown $USER:staff ~/.atom/keymap.cson
+chown $USER:staff ~/.atom/snippets.cson
+chown $USER:staff ~/.atom/styles.less
 chmod 644 ~/.atom/config.cson
 chmod 644 ~/.atom/init.coffee
 chmod 644 ~/.atom/keymap.cson

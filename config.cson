@@ -71,6 +71,7 @@
   "bracket-matcher": {}
   core:
     autoHideMenuBar: true
+    closeDeletedFileTabs: true
     customFileTypes:
       "source.jade": [
         "pug"
@@ -83,6 +84,7 @@
       "atom-ternjs"
       "multiline-tab"
       "platformio-ide-terminal"
+      "linter-htmlhint"
     ]
     ignoredNames: [
       ".git"
@@ -109,15 +111,16 @@
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
-      "base16-tomorrow-dark-theme"
+      "oceanic-one-dark-syntax"
     ]
+    titleBar: "custom-inset"
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
   editor:
-    fontFamily: "ubuntu mono, consolas-, operator mono medium, fira code medium, ibm plex mono medium"
-    fontSize: 20
+    fontFamily: "Source Code Pro, Fira Code-, FiraCode-Retina-, Courier Prime Code, Consolas, IBMPlexMono-Text"
+    fontSize: 17
     invisibles: {}
-    lineHeight: 1.4
+    lineHeight: 1.6
     scrollPastEnd: true
     showInvisibles: true
   "exception-reporting":
@@ -148,6 +151,13 @@
   "language-babel": {}
   linter: {}
   "linter-eslint": {}
+  "linter-htmlhint":
+    enabledScopes: [
+      "text.html.angular"
+      "text.html.basic"
+      "text.html.jsp"
+      "text.html.mustache"
+    ]
   "linter-phpcs": {}
   "linter-phpmd": {}
   "linter-pug":
