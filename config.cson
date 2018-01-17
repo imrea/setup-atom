@@ -117,7 +117,7 @@
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
   editor:
-    fontFamily: "Source Code Pro, Fira Code-, FiraCode-Retina-, Courier Prime Code, Consolas, IBMPlexMono-Text"
+    fontFamily: "Operator Mono-, Source Code Pro-, Fira Code, FiraCode-Retina, Courier Prime Code, Consolas, IBMPlexMono-Text"
     fontSize: 17
     invisibles: {}
     lineHeight: 1.6
@@ -135,7 +135,7 @@
       "node_modules"
     ]
   "git-blame":
-    columnWidth: 381
+    columnWidth: 348
     dateFormatString: "YYYY.MM.DD"
   "git-diff": {}
   "goto-definition":
@@ -175,6 +175,8 @@
     liveUpdate: false
   minimap:
     displayPluginsControls: false
+  "minimap-autohider":
+    TransitionDuration: 200
   "minimap-linter": {}
   "multi-wrap-guide":
     columns: [
