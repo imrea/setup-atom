@@ -117,8 +117,8 @@
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
   editor:
-    fontFamily: "Operator Mono-, Source Code Pro-, Fira Code, FiraCode-Retina, Courier Prime Code, Consolas, IBMPlexMono-Text"
-    fontSize: 17
+    fontFamily: "Fira Code, FiraCode-Retina, Monaco-, Inconsolata-g-, Operator Mono-, Source Code Pro-, Courier Prime Code, Consolas, IBMPlexMono-Text"
+    fontSize: 16
     invisibles: {}
     lineHeight: 1.6
     scrollPastEnd: true
@@ -127,6 +127,7 @@
     userId: "8ff1df16-070d-d2f6-eba4-5281fa42ab0e"
   "file-icons":
     coloured: false
+    tabPaneIcon: false
   "file-types":
     "^.env\\..*$": "source.dotenv"
     "^Dockerfile\\..*$": "source.dockerfile"
@@ -200,6 +201,13 @@
       fontSize: "14"
     toggles:
       runInsertedText: false
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+    prettierOptions:
+      singleQuote: true
+      trailingComma: "all"
+    useEslint: true
   "pristine-ui":
     fontSize: 13
   "seti-syntax":
