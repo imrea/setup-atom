@@ -1,5 +1,5 @@
 activate-power-mode@2.7.0
-advanced-open-file@0.16.7
+advanced-open-file@0.16.8
 aligner@1.2.4
 aligner-javascript@1.3.0
 aligner-php@1.2.0
@@ -7,7 +7,7 @@ aligner-ruby@1.6.1
 aligner-scss@1.3.1
 ariake-dark-syntax@0.1.3
 atom-autocomplete-php@0.25.6
-atom-beautify@0.30.9
+atom-beautify@0.32.2
 atom-jade@0.3.0
 atom-material-syntax@1.0.8
 atom-material-syntax-dark@1.0.0
@@ -15,7 +15,7 @@ atom-material-ui@2.1.3
 atom-panda-syntax@0.18.0
 atom-ternjs@0.18.3
 autoclose-html@0.23.0
-autocomplete-modules@1.11.0
+autocomplete-modules@1.12.0
 autocomplete-paths@2.12.2
 busy-signal@1.4.3
 cake-syntax@1.0.2
@@ -58,7 +58,7 @@ linter-phpmd@2.0.0
 linter-pug@2.0.3
 linter-rubocop@2.2.3
 linter-sass-lint@1.8.3
-linter-ui-default@1.6.10
+linter-ui-default@1.7.1
 markdown-writer@2.7.3
 minimap@4.29.8
 minimap-autohider@1.5.4
@@ -75,8 +75,8 @@ paraiso-dark@2.0.2
 paraiso-dark-tuned@2.0.6
 paraiso-light@2.0.2
 pigments@0.40.2
-platformio-ide-terminal@2.8.0
-prettier-atom@0.51.0
+platformio-ide-terminal@2.8.1
+prettier-atom@0.52.0
 pristine-ui@1.1.11
 project-manager@3.3.5
 railscast-theme@0.4.0

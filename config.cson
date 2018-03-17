@@ -71,6 +71,7 @@
   "bracket-matcher": {}
   core:
     autoHideMenuBar: true
+    automaticallyUpdate: false
     closeDeletedFileTabs: true
     customFileTypes:
       "source.jade": [
@@ -117,7 +118,7 @@
   "custom-title":
     template: "<%= relativeFilePath %><% if (projectPath) { %> - <%= projectPath %><% } %>"
   editor:
-    fontFamily: "Fira Code, FiraCode-Retina, Monaco-, Inconsolata-g-, Operator Mono-, Source Code Pro-, Courier Prime Code, Consolas, IBMPlexMono-Text"
+    fontFamily: "Ubuntu Mono-, Fira Code, Hasklig-, Source Code Pro-, Operator Mono-, Courier Prime Code, Consolas, IBMPlexMono-Text"
     fontSize: 16
     invisibles: {}
     lineHeight: 1.6
